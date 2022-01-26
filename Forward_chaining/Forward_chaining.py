@@ -1,10 +1,3 @@
-
-
-#TO DO -> Leitura de dados
-#TO DO -> Criação de conjunto de regras
-#TO DO -> Formatação
-#TO DO -> Análise e operações
-
 from pickle import TRUE
 import re
 
@@ -68,7 +61,7 @@ class Forward_chaining:
 
 
 
-window = Forward_chaining('baseToForward.txt')
+window = Forward_chaining('Forward_chaining/baseToForward.txt')
 print('Encadeamento para frente')
 window.setRules()
 window.displayRules()

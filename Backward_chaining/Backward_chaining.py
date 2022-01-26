@@ -88,12 +88,12 @@ class Bacward_chaining:
               
     
     def derivedRules(self):
-        return f' regras derivadas {self.conflicts}'
+        print(self.conflicts)
 
 
 
 run = input('Digite o objetivo da operação:\n').upper()
-window = Bacward_chaining('baseToBackward.txt',run)
+window = Bacward_chaining('Backward_chaining/baseToBackward.txt',run)
 window.setRules()
 window.displayRules()
 window.dfs(window.getIndex([run]))
