@@ -1,0 +1,6 @@
+P & Q -> O
+W & R -> P
+R & S -> P
+I -> R
+V -> S
+V -> Q
